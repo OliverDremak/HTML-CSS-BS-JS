@@ -61,7 +61,7 @@ function haromszogk() {
       document.getElementById("nk").value = a * a + " cm2";
     }
   }
-  function gulaTerulet() {
+  function gulaTérfogat() {
     var h = parseFloat(document.getElementById("hem").value);
     var r = parseFloat(document.getElementById("her").value);
     var val = document.getElementById("valaszt3").value;
@@ -75,7 +75,7 @@ function haromszogk() {
       document.getElementById("het").value = r * r * 3.14 * h + " cm3";
     }
   }
-  function gulaFelulet() {
+  function gulaFelszin() {
     var magasság = parseFloat(document.getElementById("hem").value);
     var alap = parseFloat(document.getElementById("her").value);
     var val = document.getElementById("valaszt3").value;
@@ -93,7 +93,7 @@ function haromszogk() {
     }
   }
   
-  function teglatestTerulet() {
+  function teglatestTerfogat() {
     var a = parseFloat(document.getElementById("ta").value);
     var b = parseFloat(document.getElementById("tb").value);
     var c = parseFloat(document.getElementById("tc").value);
@@ -108,7 +108,7 @@ function haromszogk() {
       document.getElementById("tt").value = a * b * c + " cm3";
     }
   }
-  function teglatestFelulet() {
+  function teglatestFelszin() {
     var a = parseFloat(document.getElementById("ta").value);
     var b = parseFloat(document.getElementById("tb").value);
     var c = parseFloat(document.getElementById("tc").value);
