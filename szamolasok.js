@@ -61,7 +61,7 @@ function haromszogk() {
       document.getElementById("nk").value = a * a + " cm2";
     }
   }
-  function gulaTérfogat() {
+  function gulaTerfogat() {
     var h = parseFloat(document.getElementById("hem").value);
     var r = parseFloat(document.getElementById("her").value);
     var val = document.getElementById("valaszt3").value;
